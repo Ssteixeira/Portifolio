@@ -1,0 +1,247 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #2c3e50, #f39c12);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.project {
+    margin-bottom: 20px;
+    background: linear-gradient( #DDC796, #B0AA92); 
+    padding: 20px;
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.project h3 {
+    color: #333; 
+}
+
+.project p {
+    color: #fff; 
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    background: linear-gradient(to right, #2c3e50, #f39c12);
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease; 
+}
+
+.project a:hover {
+    background-color: #f39c12; 
+}
+.project {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a:hover {
+    transform: translateY(-2px); 
+}
+
+.project a i {
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#about p {
+    background: linear-gradient( #DDC796, #B0AA92); 
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+}
+body {
+  background: linear-gradient( #DDC796, #EBE4D1); 
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: black;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+ 
+  
+  .buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #2c3e50, #f39c12);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+.profile-image {
+    width: 300px; /* tamanho da imagem */
+    height: 300px; 
+    border-radius: 50%; 
+    flex-shrink: 0; 
+    margin-left: auto; 
+}
+/*posicionamento da imagem */
+#img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .profile-image {
+    float: right;
+  }
+  
+  
+  #skills {
+    text-align: center;
+    background: linear-gradient( #DDC796, #B0AA92); 
+    
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skill {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .skill:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skill i {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+  
+  .skill span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  /*Contato*/
+  #contact {
+    background: linear-gradient(to right, #DDC796, #B0AA92);
+    padding: 50px 0; 
+    text-align: center; 
+  }
+  
+  #contact h2 {
+    color: #fff; 
+  }
+  
+  #contact p {
+    color: #fff; 
+  }
+  
+  #contact ul {
+    list-style-type: none; 
+  }
+  
+  #contact ul li {
+    margin-bottom: 15px; 
+  }
+  
+  #contact ul li i {
+    margin-right: 10px; 
+  }
+  
+  #contact ul li a {
+    color: black; 
+    text-decoration: none; 
+  }
+  
+  #contact ul li a:hover {
+    text-decoration: underline;
+  }
+  
